@@ -120,6 +120,17 @@
     todir=&quot;${env.server.home}/sdk&quot; overwrite=&quot;true&quot; /&gt;" />
 
     <var name="install.templates" value="" />
+    <if>
+      <available file="${outdir}/marketplace/install/templates" />
+      <then>
+        <var name="install.templates"
+             value="${line.separator}
+  &lt;copy dir=&quot;${package.root}/install/templates&quot; todir=&quot;${env.templates}&quot; overwrite=&quot;true&quot; /&gt;${line.separator}
+  &lt;config addtemplate=&quot;realtimeeditor&quot; /&gt;${line.separator}" />
+      </then>
+    </if>
+
+
 
     <copy file="src/main/resources/install.xml"
           todir="${outdir}/marketplace"
