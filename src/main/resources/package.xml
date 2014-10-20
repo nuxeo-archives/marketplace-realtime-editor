@@ -2,7 +2,7 @@
 <package type="addon" name="nuxeo-realtime-editor" version="@VERSION@">
   <title>Nuxeo Real Time editor</title>
   <description>
-    <p>Provides a real time editor like etherpad for note.</p>    
+    <p>Provides a real time editor like Etherpad for note.</p>
   </description>
   <home-page></home-page>
   <vendor>Nuxeo</vendor>
@@ -16,9 +16,6 @@
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
   </platforms>
-  <dependencies>
-    <package>nuxeo-dm:@DISTRIB_VERSION@</package>
-  </dependencies>
-  <license>LGPL</license>
-  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+  <license>LGPL 2.1</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
 </package>
