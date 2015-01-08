@@ -23,25 +23,25 @@
       <dependency>
         <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
         <artifactId>nuxeo-realtime-edit-api</artifactId>
-        <version>5.6-SNAPSHOT</version>
+        <version>5.9.1-SNAPSHOT</version>
       </dependency>
 
       <dependency>
         <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
         <artifactId>nuxeo-realtime-edit-core</artifactId>
-        <version>5.6-SNAPSHOT</version>
+        <version>5.9.1-SNAPSHOT</version>
       </dependency>
 
       <dependency>
         <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
         <artifactId>nuxeo-realtime-edit-web</artifactId>
-        <version>5.6-SNAPSHOT</version>
+        <version>5.9.1-SNAPSHOT</version>
       </dependency>
 
       <dependency>
         <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
         <artifactId>nuxeo-etherpad-lite</artifactId>
-        <version>5.6-SNAPSHOT</version>
+        <version>5.9.1-SNAPSHOT</version>
       </dependency>      
 
   </dependencies>
